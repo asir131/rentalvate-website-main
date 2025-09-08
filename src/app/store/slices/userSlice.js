@@ -1,7 +1,7 @@
 import { createSlice } from "@reduxjs/toolkit";
 
 const initialState = {
-  selectedRole: "",
+  selectedRole: "tenant",
   userInfo: null,
   isAuthenticated: false,
   isSignedIn: false,
